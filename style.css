@@ -1,3 +1,9 @@
+:root {
+    --primary-text-color: #fcffff;
+    --secondary-text-color: #8f9ba7;
+    --third-text-color: #3f92de;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -6,6 +12,7 @@ body {
     min-height: 100vh;
     margin: 0;
     background-color: #171f2a;
+    font-family: Helvetica, Sans-Serif;
 }
 
 main {
@@ -59,4 +66,17 @@ section.stats {
 .content-left img {
     max-width: 49px;
     max-height: 49px;
+    border-radius: 50%;
+}
+
+.author, .message {
+    color: var(--primary-text-color);
+}
+
+.stats , .date, .author-tag, .mode {
+    color: var(--secondary-text-color);
+}
+
+.show {
+    color: var(--third-text-color);
 }
