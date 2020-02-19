@@ -9,9 +9,8 @@
 .links {
     color: var(--secondary-text-color);
     border: 0px;
-    font-family: Helvetica, sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
     font-size: 13px;
-    font-weight: bold;
     display: flex;
     flex-direction: column;
     padding: 0px 15px;
