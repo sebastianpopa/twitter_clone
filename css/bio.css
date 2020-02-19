@@ -18,7 +18,7 @@
 
 .text-elements {
     margin: 0px 0px 15px;
-    padding: 10px 15px 0px;
+    padding: 5px 15px 0px;
 }
 
 .cover img {
@@ -69,4 +69,31 @@
 .name {
     font-size: 19px;
     font-weight: bold;
+}
+.follow {
+    display:flex;
+    justify-content: flex-end;
+    padding: 10px 15px 0px;
+}
+
+.follow button {
+    background: transparent;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Helvetica, sans-serif;
+    border: 1px solid var(--third-text-color);
+    color: var(--third-text-color);
+    padding: 0px 15px;
+    min-height: 39px;
+    border-radius: 9999px;
+}
+
+.magic {
+    position: relative;
+}
+
+.profile-picture {
+    position: absolute;
+    top: 120px;
+    left: 10px;
 }
