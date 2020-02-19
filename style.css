@@ -3,6 +3,7 @@
     --secondary-text-color: #8f9ba7;
     --third-text-color: #3f92de;
     --primary-border-color: #3c444f;
+    --post-hover-color: #1d2733;
 }
 
 * {
@@ -46,6 +47,10 @@ main {
     margin-bottom: 1px;
     border: 1px solid var(--primary-border-color);
     border-bottom: 0px;
+}
+
+.post:hover {
+    background-color: var(--post-hover-color);
 }
 
 .content {
