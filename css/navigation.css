@@ -1,0 +1,29 @@
+:root {
+    --primary-text-color: #fcffff;
+    --secondary-text-color: #8f9ba7;
+    --third-text-color: #3f92de;
+    --primary-border-color: #3c444f;
+    --post-hover-color: #1d2733;
+}
+
+.navigation {
+    color: var(--secondary-text-color);
+    display: flex;
+    width: 473px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid var(--primary-border-color);
+    border-bottom: 0px;
+    border-top: 0px;
+    justify-content: space-around;
+}
+
+.navigation-item {
+    padding: 15px;
+}
+
+.navigation-item:focus {
+    border-bottom: 3px solid var(--third-text-color);
+    outline: none;
+    color: var(--third-text-color);
+}
