@@ -1,0 +1,39 @@
+:root {
+    --primary-text-color: #fcffff;
+    --secondary-text-color: #8f9ba7;
+    --third-text-color: #3f92de;
+    --primary-border-color: #3c444f;
+    --post-hover-color: #1d2733;
+}
+
+.photos {
+    color: var(--primary-text-color);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1px solid var(--primary-border-color);
+    border-radius: 14px;
+    margin: 10px 0px;
+    width: 348px;
+}
+
+.photo img {
+    width: 114.67px;
+    height: 96.88px;
+}
+
+.top-left img {
+    border-top-left-radius: 14px;
+}
+
+.top-right img {
+    border-top-right-radius: 14px;
+}
+
+.bottom-left img {
+    border-bottom-left-radius: 14px;
+}
+
+.bottom-right img {
+    border-bottom-right-radius: 14px;
+}
