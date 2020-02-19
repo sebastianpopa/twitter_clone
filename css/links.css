@@ -6,16 +6,22 @@
     --post-hover-color: #1d2733;
 }
 
-.trends {
-    color: var(--primary-text-color);
+.links {
+    color: var(--secondary-text-color);
     border: 0px;
-    border-radius: 14px;
-    margin: 10px 0px;
-    margin-bottom: 15px;
-    background-color: #1d2733;
     font-family: Helvetica, sans-serif;
-    font-size: 19px;
+    font-size: 13px;
     font-weight: bold;
-    padding: 15px;
-    border-bottom: 1px solid var(--primary-border-color);
+    display: flex;
+    flex-direction: column;
+    padding: 0px 15px;
+}
+
+.links-r1 {
+    display: flex;
+    margin-bottom: 3px;
+}
+
+.link-r1 {
+    padding: 0px 10px 0px 0px;
 }
