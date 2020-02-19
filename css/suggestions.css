@@ -1,0 +1,75 @@
+:root {
+    --primary-text-color: #fcffff;
+    --secondary-text-color: #8f9ba7;
+    --third-text-color: #3f92de;
+    --primary-border-color: #3c444f;
+    --post-hover-color: #1d2733;
+}
+
+.suggestions {
+    color: var(--primary-text-color);
+    display: flex;
+    flex-direction: column;
+    border: 0px;
+    border-radius: 14px;
+    margin: 10px 0px;
+    background-color: #1d2733;
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.sugg {
+    display: flex;
+    padding: 10px 15px;
+    border-bottom: 1px solid var(--primary-border-color);
+}
+
+.might {
+    font-size: 19px;
+    font-weight: bold;
+    padding: 15px;
+    border-bottom: 1px solid var(--primary-border-color);
+}
+
+.sugg-text{
+    display:flex;
+    flex-direction: column;
+    margin-left: 8px;
+}
+
+.sugg-name {
+    font-weight: bold;
+}
+
+.sugg-tag {
+    color: var(--secondary-text-color);
+}
+
+.sugg-picture img {
+    width: 49px;
+    height: 49px;
+    border-radius: 50%;
+}
+
+.sugg-btn {
+    background: transparent;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Helvetica, sans-serif;
+    border: 1px solid var(--third-text-color);
+    color: var(--third-text-color);
+    padding: 0px 15px;
+    height: 30px;
+    border-radius: 9999px;
+}
+
+.sugg-right {
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+}
+
+.more {
+    color: var(--third-text-color);
+    padding: 15px;
+}
