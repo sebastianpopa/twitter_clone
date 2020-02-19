@@ -21,7 +21,7 @@
 }
 
 .post {
-    max-width: 473px;
+    width: 473px;
     display: flex;
     flex-direction: column;
     font-size: 15px;

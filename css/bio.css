@@ -10,4 +10,63 @@
     color: var(--primary-text-color);
     display: flex;
     flex-direction: column;
+    width: 473px;
+    font-size: 15px;
+    border: 1px solid var(--primary-border-color);
+    border-bottom: 0px;
+}
+
+.text-elements {
+    margin: 0px 0px 15px;
+    padding: 10px 15px 0px;
+}
+
+.cover img {
+    height: 199.3px;
+    width: 100%;
+}
+
+.profile-picture img {
+    height: 134px;
+    width: 134px;
+    border-radius: 50%;
+}
+
+.details {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.desc {
+    margin-bottom: 10px;
+}
+
+.tag {
+    margin-bottom: 10px;
+}
+
+.detail {
+    margin-right: 5px;
+}
+
+.fol {
+    display: flex;
+    font-weight: bold;
+}
+
+.fol > div {
+    margin-right: 15px;
+}
+
+.tag, .fol span, .detail {
+    color: var(--secondary-text-color);
+}
+
+.fol span {
+    font-weight: normal;
+}
+
+.name {
+    font-size: 19px;
+    font-weight: bold;
 }
