@@ -34,4 +34,29 @@ main {
 
 .post {
     max-width: 473px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    display: flex;
+}
+
+.content-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.signature {
+    display:flex;
+}
+
+section.stats {
+    display:flex;
+    justify-content: space-between;
+}
+
+.content-left img {
+    max-width: 49px;
+    max-height: 49px;
 }
