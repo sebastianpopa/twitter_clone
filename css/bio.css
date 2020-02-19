@@ -1,0 +1,13 @@
+:root {
+    --primary-text-color: #fcffff;
+    --secondary-text-color: #8f9ba7;
+    --third-text-color: #3f92de;
+    --primary-border-color: #3c444f;
+    --post-hover-color: #1d2733;
+}
+
+.bio {
+    color: var(--primary-text-color);
+    display: flex;
+    flex-direction: column;
+}
