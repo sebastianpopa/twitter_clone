@@ -5,6 +5,7 @@
 body {
     min-height: 100vh;
     margin: 0;
+    min-width: 630px;
     display: flex;
     flex-direction: column;
     background-color: #171f2a;
@@ -13,7 +14,6 @@ body {
 
 main {
     display: flex;
-    min-width: 100vh;
     align-items: flex-start;
     justify-content: center;
     margin: 0;
@@ -21,7 +21,6 @@ main {
 
 .profile-container {
     min-height: 100vh;
-    min-width: 100px;
 }
 
 .side-container {
