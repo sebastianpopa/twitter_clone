@@ -14,6 +14,8 @@ header {
     font-size: 13px;
     display: flex;
     border-bottom: 1px solid var(--primary-border-color);
+    justify-content: center;
+    align-items: center;
 }
 
 .top-nav {
@@ -56,4 +58,14 @@ header {
     padding: 0px 15px;
     height: 30px;
     border-radius: 9999px;
+}
+
+.logo, .search, .account {
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+.logo img {
+    height: 25px;
+    width: 20px;
 }
