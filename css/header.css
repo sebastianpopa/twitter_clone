@@ -1,0 +1,59 @@
+:root {
+    --primary-text-color: #fcffff;
+    --secondary-text-color: #8f9ba7;
+    --third-text-color: #3f92de;
+    --primary-border-color: #3c444f;
+    --post-hover-color: #1d2733;
+    --secondary-background-color: #1d2733;
+}
+
+header {
+    color: var(--secondary-text-color);
+    border: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+    font-size: 13px;
+    display: flex;
+    border-bottom: 1px solid var(--primary-border-color);
+}
+
+.top-nav {
+    display: flex;
+}
+
+.search {
+    color: var(--secondary-text-color);
+}
+
+.search input {
+    color: var(--secondary-text-color);
+    background-color: var(--secondary-background-color);
+    border: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+    border-radius: 9999px;
+    padding: 10px;
+}
+
+.login {
+    color: var(--third-text-color);
+    background: transparent;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+    border: 1px solid var(--third-text-color);
+    color: var(--third-text-color);
+    padding: 0px 15px;
+    height: 30px;
+    border-radius: 9999px;
+}
+
+.signup {
+    color: var(--primary-text-color);
+    background-color: var(--third-text-color);
+    font-weight: bold;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+    border: 1px solid var(--third-text-color);
+    padding: 0px 15px;
+    height: 30px;
+    border-radius: 9999px;
+}
