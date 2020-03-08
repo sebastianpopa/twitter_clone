@@ -6,3 +6,22 @@
         margin-left: 50px;
     }
 }
+
+@media (max-width: 700px) {
+    .side-container {
+        display: none;
+    }
+    .account {
+        margin-left: 0px;
+    }
+    header {
+        justify-content: start;
+    }
+    main {
+        justify-content: start;
+    }
+    body {
+        justify-content: start;
+        width: 500px;
+    }
+}
