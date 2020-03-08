@@ -4,7 +4,8 @@
     --third-text-color: #3f92de;
     --primary-border-color: #3c444f;
     --post-hover-color: #1d2733;
-    --secondary-background-color: #1d2733; 
+    --secondary-background-color: #1d2733;
+    --sugg-hover-color: #21303d;
 }
 
 .suggestions {
@@ -24,6 +25,10 @@
     border-bottom: 1px solid var(--primary-border-color);
 }
 
+.sugg:hover {
+    background-color: var(--sugg-hover-color);
+}
+
 .might {
     font-size: 19px;
     font-weight: bold;
@@ -39,6 +44,11 @@
 
 .sugg-name {
     font-weight: bold;
+}
+
+.sugg-name:hover {
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 .sugg-tag {

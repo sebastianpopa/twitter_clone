@@ -58,6 +58,11 @@
     margin-right: 15px;
 }
 
+.fol div:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 .tag, .fol span, .detail {
     color: var(--secondary-text-color);
 }

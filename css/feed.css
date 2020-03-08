@@ -59,11 +59,20 @@
 
 .author {
     font-weight: bold;
+    cursor: pointer;
+}
+
+.author:hover {
+    text-decoration: underline;
 }
 
 .stats {
     display:flex;
     justify-content: space-between;
+}
+
+.stats i {
+    padding: 5px;
 }
 
 .author, .message {
@@ -93,4 +102,34 @@
 
 .mode {
     font-size: 13px;
+}
+
+.comments:hover {
+    color: rgb(0, 140, 255);
+    cursor: pointer;
+}
+
+.comments:hover i {
+    background-color: rgba(73, 130, 177, 0.1);
+    border-radius: 50%;
+}
+
+.retweets:hover {
+    color: rgb(0, 255, 34);
+    cursor: pointer;
+}
+
+.retweets:hover i {
+    background-color: rgba(0, 255, 34, 0.1);
+    border-radius: 50%;
+}
+
+.hearts:hover {
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+}
+
+.hearts:hover i {
+    background-color: rgba(255, 0, 0, 0.1);
+    border-radius: 50%;
 }
